@@ -1,0 +1,506 @@
+body{
+margin: 0px;
+font-family: "Alegreya", serif;
+}
+h2{
+    font-size: 180%;
+    font-weight: normal;
+}
+.clear-fix{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.homesection{
+    width: 100%;
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin-bottom: 4%;
+    background-color: red;
+    position: relative;
+}
+.navbar{
+    width: 65%;
+    margin-inline: auto;
+    margin-bottom: 60px;
+}
+.logo img{
+    width: 150px;
+}
+.logo {
+    float: left;
+    width: 40%;
+    padding-block: 10px;
+}
+.links{
+    float: right;
+    width: 60%;
+}
+.links ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    padding-block: 25px ;
+    margin-left: 100px;
+    text-align: center;
+}
+.links ul li{
+    float: left;
+    width: 16.666666666666666666667%;
+}
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.inner-content h1{
+    font-weight: bold;
+}
+.inner-content{
+    text-align: center;
+    color: #fff;
+    font-size: 150%;
+    
+}
+.middle-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.homebutton{
+    text-align: center;
+}
+.homebutton a{
+text-decoration: none;
+color: #fff;
+}
+.learbutton{
+ background-color: #8e7754;
+ padding: 10px 15px;
+ margin-right:20px ;
+ border: transparent solid 2px;
+ border-radius: 4px;
+
+}
+.Contactbutton{
+    background-color: transparent;
+    padding: 10px 15px;
+    border: white solid 2px;
+    border-radius: 4px;
+}
+.bakrybutton{
+    background-color: transparent;
+    border: white solid 2px;
+    padding: 12px 9px;
+    border-radius: 100px;
+}
+
+/* ******************************** */
+.bakry-section{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.bakry-section ul{
+color:#686868 ;
+}
+.bakry-section p{
+ color:#686868 ;
+}
+.leftbakry{
+    width: 48%;
+    float: left;    
+}
+.rightbakry{
+    margin-top: 30px;
+    width: 47%;
+    float: right;
+    margin-left: 5%;
+}
+.rightbakry p {
+    margin-block: 40px;
+}
+.rightbakry ul{
+    list-style-type: none;
+}
+
+.rightbakry ul .bak1{
+    background-image: url(../Images/Icons/leaf.png);
+    background-size: 45px; 
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.rightbakry ul .bak2{
+    background-image: url(../Images/Icons/people.png);
+    background-size: 45px; 
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.rightbakry ul .bak3{
+    background-image: url(../Images/Icons/heart.png);
+    background-size: 45px; 
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.rightbakry ul .bak4{
+    background-image: url(../Images/Icons/check.png);
+    background-size: 45px; 
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* **************************/
+.locationcontainer{
+    background-color: #f8f8f8;
+}
+.location{
+    width: 65%;
+    margin-inline: auto;
+    margin-bottom: 4%;
+}
+.leftlocation{
+    width: 48%;
+    float: left;
+    margin-top: 8%;
+}
+
+.rightlocation{
+    width: 48%;
+    float: right;
+
+    
+}
+/* ************** */
+.baking{
+    width: 65%;
+    margin-inline: auto;
+    margin-bottom: 4%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.baking p{
+    color: #686868;
+}
+.firstbaking{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+
+
+}
+.secondtbaking{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+
+
+
+}
+.thirdbaking{
+    float: left;
+    width: 32%;
+}
+
+/* **** */
+.contactcontainer{
+    background-color: #f8f8f8;
+
+}
+.contact{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 4%;
+    padding-block:2% ;
+}
+.leftcontact{
+    float: left;
+    width: 50%;
+}
+.leftcontact ul{
+    color: #686868;
+    list-style-type: none;
+}
+.leftcontact p{
+    color: #686868;
+}
+.rightcontact{
+    float: right;
+    width: 50%;
+    margin-top: 2%;
+}
+.leftcontact ul{
+    margin: 0px;
+    padding: 0px;
+}
+.leftcontact ul .cont1 {
+    background-image: url(../Images/Icons/map.png);
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px; 
+    position: relative;
+}
+
+.leftcontact ul .cont2 {
+    background-image: url(../Images/Icons/phone.png);
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px; 
+}
+.leftcontact ul .cont3 {
+    background-image: url(../Images/Icons/headphone.png);
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px; 
+}
+.leftcontact ul .cont4 {
+    background-image: url(../Images/Icons/email.png);
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px; 
+}
+.rightcontact iframe{
+    width: 100%;
+    height: 500px;
+}
+.leftcontact li {
+    width: 100%; 
+    height: 70px;
+}
+/* **************** */
+.footercontainer{
+    background-color:#403d38;
+
+}
+.footer{
+    width: 65%;
+    margin-inline: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot1{
+width: 25%;
+float: left;
+}
+.foot2{
+    width: 25%;
+    float: left;
+}
+.foot3{
+    width: 25%;
+    float: left;
+
+}
+.foot4{
+    width: 25%;
+    float: left;
+
+}
+.foot1{
+    color: #969696;
+
+}
+.foot2 ul{
+    list-style-type: none;
+
+
+} 
+.foot2 ul li{
+    color: #969696;
+
+} 
+.palign{
+    width: 100%;
+}
+.footh4{
+padding-left: 40px;
+}
+.foot2 li.icfoot1{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot2 li.icfoot2{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot2 li.icfoot3{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot2 li.icfoot4{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot2 li.icfoot5{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot3 ul{
+    list-style-type: none;
+    color: #969696;
+} 
+.foot3 .icfootnum1{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot3 .icfootnum1{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot3 .icfootnum2{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot3 .icfootnum3{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot3 .icfootnum4{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+.foot3 .icfootnum5{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+
+
+.foot3 .icfootnum6{
+    padding-left: 30px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/arrow.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 20px; 
+    width: 100%;
+}
+
+hr{
+   width: 100%;
+   border: #676664 solid 1px;
+}
+.footer h4{
+    color: #fff;
+
+}
+.foot4 ul {
+    color: #969696;
+    list-style-type: none;
+}
+.foot4 ul li a{
+   text-decoration: none;
+   color: #969696;
+} 
+.foot4 .icfo1{
+    padding-left: 50px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/location.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 30px; 
+    width: 100%;
+}
+.foot4 .icfo2{
+    padding-left: 50px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/phone-gray.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 30px; 
+    width: 100%;
+}
+.foot4 .icfo3{
+    padding-left: 50px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/email-solid.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 30px; 
+    width: 100%;
+}
+.foot4 .icfo4{
+    padding-left: 50px; /* Adjust padding as needed */
+    background-image: url(../Images/Icons/earth.png);
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size: 30px; 
+    width: 100%;
+}
+
+
+/* ***************/
+.endfootercontainer{
+    background-color: #403d38;
+}
+.endfooter{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    color: #969696;
+
+}
+.endfoo1 img{
+    width: 400px;
+}
+.endfoo1{
+    width: 100%;
+
+}
+.linksfoot img{
+    width: 50px;
+}
