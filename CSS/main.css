@@ -164,6 +164,8 @@ color:#686868 ;
 /* **************************/
 .locationcontainer{
     background-color: #f8f8f8;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 .location{
     width: 65%;
@@ -246,33 +248,33 @@ color:#686868 ;
     padding: 0px;
 }
 .leftcontact ul .cont1 {
-    background-image: url(../Images/Icons/map.png);
+    background-image: url(../Images/Icons/people.png);
     padding-left: 60px;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: 50px; 
     position: relative;
 }
 
 .leftcontact ul .cont2 {
-    background-image: url(../Images/Icons/phone.png);
+    background-image: url(../Images/Icons/check.png);
     padding-left: 60px;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: 50px; 
 }
 .leftcontact ul .cont3 {
-    background-image: url(../Images/Icons/headphone.png);
+    background-image: url(../Images/Icons/leaf.png);
     padding-left: 60px;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: 50px; 
 }
 .leftcontact ul .cont4 {
-    background-image: url(../Images/Icons/email.png);
+    background-image: url(../Images/Icons/heart.png);
     padding-left: 60px;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     background-size: 50px; 
 }
 .rightcontact iframe{
