@@ -12,6 +12,7 @@ h2{
 img{
     width: 100%;
 }
+/* Stat Home Section */
 .homesection{
     width: 100%;
     background-image: url(../Images/drew-coffman-1872.jpg);
@@ -19,7 +20,6 @@ img{
     background-position: center center;
     height: 100vh;
     margin-bottom: 4%;
-    background-color: red;
     position: relative;
 }
 .navbar{
@@ -102,8 +102,8 @@ color: #fff;
     padding: 12px 9px;
     border-radius: 100px;
 }
-
-/* ******************************** */
+/* End Home Section */
+/* Start About Section */
 .bakry-section{
     width: 65%;
     margin: auto;
@@ -160,8 +160,8 @@ color:#686868 ;
     background-repeat: no-repeat;
     background-position: left center;
 }
-
-/* **************************/
+/* End About Section */
+/* Start Location Section */
 .locationcontainer{
     background-color: #f8f8f8;
     padding-top: 80px;
@@ -184,7 +184,8 @@ color:#686868 ;
 
     
 }
-/* ************** */
+/* End Location Section */
+/* Start Backing Section */
 .baking{
     width: 65%;
     margin-inline: auto;
@@ -207,16 +208,13 @@ color:#686868 ;
     float: left;
     width: 32%;
     margin-right: 2%;
-
-
-
 }
 .thirdbaking{
     float: left;
     width: 32%;
 }
-
-/* **** */
+/* End Backing Section */
+/* Start Contact Section */
 .contactcontainer{
     background-color: #f8f8f8;
 
@@ -285,10 +283,10 @@ color:#686868 ;
     width: 100%; 
     height: 70px;
 }
-/* **************** */
+/* End Contact Section */
+/* Strt Footer Section */
 .footercontainer{
     background-color:#403d38;
-
 }
 .footer{
     width: 65%;
@@ -483,9 +481,6 @@ hr{
     background-size: 30px; 
     width: 100%;
 }
-
-
-/* ***************/
 .endfootercontainer{
     background-color: #403d38;
 }
@@ -506,3 +501,4 @@ hr{
 .linksfoot img{
     width: 50px;
 }
+/* End Footer Section */
